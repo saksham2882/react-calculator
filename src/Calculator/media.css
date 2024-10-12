@@ -1,0 +1,81 @@
+
+@media (min-width: 1367px) {
+    .cal{
+        padding: 30px;
+        width: 30vw;
+    }
+
+    button{
+        font-size: 1.6rem;
+        padding: 18px;
+    }
+
+    input[type="text"]{
+        font-size: 2.2rem;
+        padding: 12px;
+    }
+
+    .btn{
+        gap: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .cal{
+        padding: 30px;
+        width: 35vw;
+    }
+
+    button{
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+
+    input[type="text"]{
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    .btn{
+        gap: 15px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .cal{
+        padding: 20px;
+        width: 80vw;
+    }
+
+    button{
+        font-size: 1.4rem;
+        padding: 18px;
+    }
+
+    input[type="text"]{
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cal{
+        width: 95vw;
+        padding: 15px;
+    }
+
+    .btn{
+        gap: 8px;
+    }
+
+    button{
+        padding: 14px;
+        font-size: 1rem;
+    }
+
+    input[type="text"]{
+        font-size: 1.5rem;
+        padding: 8px;
+    }
+}
